@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
-    <link rel="stylesheet" href=styles.css>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-    <p><a href="https://github.com/Slurpzy123/counter" target="_blank">
-        <img src="image.png" alt="logo" id="logo">
-        </a></p>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/about">About</a>
+    <a href="/counter">Counter</a>
+    <a href="/#">Home</a>
+    <a href="#">Contact</a>
+  </div>
+
+<div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
 <h1 id="title">
     Counter
 </h1>
@@ -28,7 +36,6 @@
         </button>
     </div>
 </body>
-<script src="script.js">
-</script>
+<script src="../scripts/script.js"></script>
 
 </html>

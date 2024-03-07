@@ -70,6 +70,7 @@ body {
   color: white;
   padding: 10px 15px;
   border: none;
+  float: left;
 }
 
 .openbtn:hover {
@@ -87,4 +88,214 @@ body {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+/* CSS For Counter Page */
+.btn.increase {
+  border-radius: 2px;
+  border-color: black;
+  border-radius: 5px;
+}
 
+.btn.increase:hover {
+  border-color: lightgreen;
+}
+
+.btn.reset {
+  border-radius: 2px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.btn.reset:hover {
+  border-color: red;
+  transform: scale(1.2);
+}
+
+.btn.decrease {
+  border-radius: 2px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.btn.decrease:hover {
+  border-color: lightcoral;
+}
+
+.parent {
+  display: flex;
+  height: 300px;
+  /* Or whatever */
+  justify-content: center;
+  width: 100%;
+}
+
+.btn.increase {
+  width: 100px;
+  /* Or whatever */
+  height: 100px;
+  /* Or whatever */
+  margin: auto;
+  /* Magic! */
+  padding: 0%;
+}
+
+.btn.reset {
+  width: 100px;
+  /* Or whatever */
+  height: 100px;
+  /* Or whatever */
+  margin: auto;
+  /* Magic! */
+  padding: 0%;
+}
+
+.btn.decrease {
+  width: 100px;
+  /* Or whatever */
+  height: 100px;
+  /* Or whatever */
+  margin: auto;
+  /* Magic! */
+  padding: 0%;
+}
+
+#title {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#value {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 110px;
+  margin: 0;
+}
+#logo {
+  width: 5%;
+  height: 5%;
+  margin-left: 95%;
+}
+.abttitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.yap {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.interests {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.imgplane {
+  height: 40%;
+  width: 40%;
+  margin-left: 100px ;
+}
+.planeyap {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.planetext {
+  display: flex;
+  flex-direction: column;
+}
+.gameyap {
+  display: flex;
+  flex-direction: row;
+}
+.imggame {
+  margin-left: 100px;
+  height: 340px;
+  width: 675px
+}
+.gametext {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
